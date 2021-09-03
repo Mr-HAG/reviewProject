@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Vytrack Regression Suite" verbose="1">
+    <test name="Vytrack Regression Test">
+        <packages>
+            <package name="com.cybertek.TestNGFramework.POM"></package>
+            <package name="com.cybertek.TestNGFramework.properties_tests"></package>
+        </packages>
+        <classes>
+            <class name="com.cybertek.TestNGFramework.properties_tests.AnotherLoginTest"></class>
+            <class name="com.cybertek.TestNGFramework.POM.PageSubtitleTest"></class>
+        </classes>
+    </test>
+</suite>
